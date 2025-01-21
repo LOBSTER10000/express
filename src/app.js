@@ -20,9 +20,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 
-app.get('/', (req,res,next)=>{
-    res.send('허허');
-})
+app.use('/', require('./routes/html/BOARD'));
 
 
 app.use(requestIp.mw());
