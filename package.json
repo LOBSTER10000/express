@@ -4,6 +4,7 @@
   "description": "익스프레스로 모방 프로젝트 진행",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon /src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Lee",
@@ -24,6 +25,7 @@
     "morgan": "^1.10.0",
     "mybatis-mapper": "^0.8.0",
     "mysql2": "^3.12.0",
+    "nodemon": "^3.1.9",
     "pm2": "^5.4.3",
     "redis": "^4.7.0",
     "request-ip": "^3.3.0",
